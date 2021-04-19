@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+* {
+    font-family: 'Karla', sans-serif;
+}
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+
+}
+aside {
+    background-color: #1CD1B0;
+    font-size: 20px;
+    margin-bottom: 0;
+    padding: 0 2%;
+}
+header {
+    background-color: #00669F;
+    color: white;
+    padding: 5px;
+    position: sticky;
+    z-index: 20;
+}
+.cabecera{
+    position: relative;
+    
+
+}
+.icono{
+    position: absolute;
+    top: -20px;
+}
+.nombre-tienda{
+    font-family: 'Roboto', sans-serif;
+    margin-left: 110px;
+
+}
+.login h1{
+    font-size: 50px;
+    color: #333333
+
+}
+.login {
+    background-color: #fff;
+    margin: 5% auto;
+    max-width: 400px;
+    padding: 20px;
+    
+}
+h1 {
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+::placeholder{
+    color: #000000;
+}
+input {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    max-width: 400px;
+    
+    
+}
+#boton {
+    background: #1CD1B0;
+    border-radius: 23px;
+    margin-top: 20px;
+
+    
+}
+.btn-registro{
+    text-align: center;
+    
+
+}  
+a {
+    color: #00669F;
+    text-decoration: none; 
+}
+
+footer {
+    clear: both;
+    background-color: #00669f;
+    color: white;
+    bottom: 0;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+} 

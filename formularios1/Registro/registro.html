@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Registro/Css/styles-registro.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css">
+    <title>Registro</title>
+</head>
+
+<body>
+    <aside>20% de descuento en todos los productos!</aside>
+    <header>
+        <div class="cabecera">
+            <img class="icono" src="./Img/OBJECTS.svg" alt="Icono-Tienda">
+            <h2 class="nombre-tienda"> Nombre Tienda</h2>
+        </div>
+    </header>
+    <div class="login">
+        <h1>Registro</h1>
+        <form action="contacto.html">
+            <label for="usuario"></label>
+            <input type="text" name="NombreApellido" id="usuario" required minlength="5" placeholder="Nombre y Apelido">
+            
+            <label for="mail"></label>
+            <input type="text" name="email" id="usuario" required minlength="5" placeholder="Correo Electrónico">
+
+            <label for="clave"></label>
+            <input type="password" id="clave" name="clave" placeholder="Contraseña">
+
+            <label for="pais"></label>
+            <select name="pais">
+                <option value="arg">Argentina</option>
+                <option value="bra">Brasil</option>
+                <option value="col">Colombia</option>
+            </select>
+            <div class="botones">
+            <input class="boton" id="boton1" type="reset" value="Resetear">
+            <input class="boton" id="boton2" type="submit" value="Entrar">
+            <p class="btn-registro"><a href="../Login/login.html"> ¿Ya tienes una cuenta?</a> Ingresá</p>
+            </div>  
+        </form>
+    </div>
+    <footer>
+        <p>Todos los derechos reservados a FRONT END 1 </p>
+    </footer>
+</body>
+
+</html>
